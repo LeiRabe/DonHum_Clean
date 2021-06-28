@@ -1,0 +1,133 @@
+/*Titre*/
+h2 {
+	font-weight: bold;
+	margin: 2em 0 1em 0.5em;
+}
+
+/*Formulaire*/
+#formDonhum{
+	font-family: helvetica, tahoma, arial;
+}
+
+.formulaireProfilParticulier {
+	border-radius: 25px;
+	padding: 1em 2em 2em 2em;
+	width: fit-content; 
+	margin-bottom:2em;
+}
+
+.formControl{
+	border-color:#FF9B54;
+}
+
+.form-control {
+	border-radius: 25px;
+}
+
+label {
+	margin-bottom:0.5%;
+	padding-bottom:0.5%;
+}
+
+.desc, #intituleArticle, #motCleProduit{
+	width:100%;
+}
+
+/*Boutton*/
+/*Menu*/
+.btn {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #000000;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #ffffff; 
+}
+/*Page*/
+.classButtonForm {
+	display:inline-block;
+	background-color: #D8E2DC;
+	border-color: #FF9B54; 
+	padding:1em 5em 1em 5em;
+}
+
+.btnAjouter{
+	margin-top: 0.5em;
+}
+
+.buttonAnnuler{
+	margin-right:1em;
+}
+
+.buttonModifier{
+	float:right;
+}
+
+#boutonsForm{
+	display: block;
+	float: right;
+	margin-top: 3em;
+}
+
+
+/*Images*/
+.grdImg{
+	margin:0.5em;
+}
+
+#trtImg{
+	float: left;
+	position:relative;
+}
+
+#expandedImg  {
+	width: 328px;
+    height: 328px;
+	border: 2px solid #FF9B54;
+	border-radius:25px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.produitParticulier{
+	position:relative;
+	float:right;
+	width:60%;
+}
+
+.imgProduit{
+	width: 82px;
+    height: 82px;
+	border: 1px solid #FF9B54;
+	border-radius:25px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#imagesProduit{
+	margin:0.5em;
+}
+
+.ajoutImg{
+	margin-left:0.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+	.produitParticulier{
+		position:relative;
+		float:left;
+		margin-top: 3em;;
+	}
+
+	#boutonsForm{
+		display: block;
+		float: left;
+		margin-top: 3em;
+	}
+}

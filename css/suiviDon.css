@@ -1,0 +1,33 @@
+/*Element de la page*/
+
+.titlePage {
+    margin:2em 0 0 1em;
+}
+
+#dmdAttente {
+	float:left;
+	position:relative;
+	margin-left:2em;
+}
+
+#dmdProposes{
+	float:right;
+	margin-right:2em;
+}
+
+h3 {
+	text-align:center;
+}
+
+i, .statutDemande {
+	border:1px;
+	border-radius: 3px;
+}
+
+.accepterDemande {
+	background-color: #00CC99;
+}
+
+.refuserDemande{
+	background-color: #F43E5C;
+}

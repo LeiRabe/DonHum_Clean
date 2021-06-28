@@ -1,0 +1,86 @@
+/* Partie Gauche */
+#infoDonhum {
+	float: left;
+	position:relative;
+	width:50%;
+	flex-wrap: flex;
+	margin-top: 5em;
+	font-family: helvetica, tahoma, arial;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+#imgLogoDonhum {
+	width: 10em;
+	margin: 1em 0 1em 0;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom : 0;
+}
+
+/* Partie Droite */
+#formDonhum{
+	flex-wrap: flex;
+	position: relative;
+	float:right;
+	width:40%;
+	margin:5em 0 0 2em;
+	font-family: helvetica, tahoma, arial;
+}
+
+.formulaireAuthentification {
+	background-color: #D8E2DC;
+	border-radius: 25px;
+	padding: 1em 2em 2em 2em;
+	margin-bottom: 5em;
+}
+
+.form-control {
+	border-radius: 25px;
+}
+
+h2{
+	font-weight: bold;
+	text-align: center;
+	border-color: #FF9B54;
+	font-size: x-large;
+	padding-bottom: 1em;
+}
+
+#connexionButton {
+	margin-top:1em;
+}
+
+#mdpOublie {
+	margin-left:1em;
+	float:right;
+}
+
+#buttonInscription {
+	display:block;
+	margin:auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	#infoDonhum {
+		display:block;
+		width:100%;
+		font-family: helvetica, tahoma, arial;
+	}
+
+	#formDonhum{
+		display: inline-block;
+		float:none;
+		flex-wrap: flex;
+		position: relative;
+		width:inherit;
+		height: inherit;
+		margin:2em auto;
+		font-family: helvetica, tahoma, arial;
+	}
+}

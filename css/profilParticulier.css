@@ -1,0 +1,78 @@
+/*Titre*/
+h2 {
+	font-weight: bold;
+	margin: 2em 0 1em 0.5em;
+}
+
+/*Formulaire*/
+#formDonhum{
+	font-family: helvetica, tahoma, arial;
+}
+
+.formulaireProfilParticulier {
+	border-radius: 25px;
+	padding: 1em 2em 2em 2em;
+	width: fit-content; 
+	margin-bottom:2em;
+}
+
+.formControl{
+	border-color:#FF9B54;
+}
+
+.form-control {
+	border-radius: 25px;
+}
+
+label {
+	margin-bottom:0.5%;
+	padding-bottom:0.5%;
+}
+
+.left{
+  display: inline-block;
+  width:30em;
+}
+
+.clear{
+  clear:both;
+}
+
+.space {
+	margin-left:5em;
+	float:right;
+}
+
+.desc {
+	width:65em;
+}
+
+/*Boutton*/
+/*Menu*/
+.btn {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #000000;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #ffffff; 
+}
+/*Page*/
+.classButtonForm {
+	display:inline-block;
+	background-color: #D8E2DC;
+	border-color: #FF9B54; 
+	padding:1em 5em 1em 5em;
+}
+
+.buttonAnnuler{
+	margin-right:1em;
+}
+
+.buttonModifier{
+	float:right;
+}

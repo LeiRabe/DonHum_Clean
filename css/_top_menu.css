@@ -1,0 +1,94 @@
+/* Menu */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css";
+
+#formSearch{
+	justify-content:right;
+	width:20%;
+}
+
+#inputSearch {
+	width:85%;
+	
+	display: inline-block;
+}
+#btnSearch{
+	display: inline-block;
+	width:10%;
+}
+
+#menuButtonCat{
+	margin:auto;
+}
+
+#imgMenuDonhum {
+	height: 2.5em;
+	width: 20%;
+	padding: 0;
+}
+
+.menu {
+	background-color: #D8E2DC;
+	margin:0;
+	padding:2px;
+}
+
+.dropdown-menu {
+	background-color: #D8E2DC;
+	margin:0;
+	padding:2px;
+	border-radius: 25px;
+}
+
+.dropdown-item:hover{
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #ffffff; 
+	border-radius: 25px;
+}
+
+#dropdownMenuLink:focus{
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #ffffff; 
+	border-radius: 25px;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-link.active {
+  background-color: #FF9B54 !important;
+  color: #000000 !important;
+  border-radius: 25px;
+}
+
+.nav-link:hover {
+  background-color: #FF9B54 !important;
+  color: #ffffff !important;
+  border-radius: 25px;
+}
+
+.form-control {
+	border-radius: 25px;
+}
+
+#btnMenuCollapse {
+	background-color: #D8E2DC;
+	border-color: #FF9B54;
+	color: #000000;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #ffffff; 
+}
+
+.btn {
+	background-color: #FF9B54;
+	border-color: #FF9B54;
+	color: #000000;
+	border-radius: 25px;
+}
