@@ -30,8 +30,8 @@ if ((isset($_POST["nomParticulier"]) && !empty($_POST["nomParticulier"]))
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/png" href="../img/logoDonhum.png" />
-    <link rel="stylesheet" href="../css/inscriptionParticulier.css"/>
+    <link rel="icon" type="image/png" href="img/logoDonhum.png" />
+    <link rel="stylesheet" href="css/inscriptionParticulier.css"/>
 		<link rel="stylesheet" href="css/_top_menu.css" />
     <title>Inscription Particulier</title>
 </head>

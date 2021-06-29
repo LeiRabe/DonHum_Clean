@@ -46,7 +46,7 @@ if(isset($_POST["deleteArticle"])){
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/png" href="../img/logoDonhum.png" />
+    <link rel="icon" type="image/png" href="img/logoDonhum.png" />
     <link rel="stylesheet" href="css/produitParticulier.css" type="text/css" />
     <link rel="stylesheet" href="css/_top_menu.css" type="text/css" />
     <title>Produit</title>

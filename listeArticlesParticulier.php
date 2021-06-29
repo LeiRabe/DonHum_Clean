@@ -41,7 +41,7 @@ if(isset($_POST["itemID"]) && is_numeric($_POST["itemID"]) && isset($_POST["reje
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/png" href="../img/logoDonhum.png" />
+    <link rel="icon" type="image/png" href="img/logoDonhum.png" />
     <link rel="stylesheet" href="css/listeArticlesPart.css" type="text/css" />
     <link rel="stylesheet" href="css/_top_menu.css" type="text/css" />
     <title>Liste des Articles pour Don</title>
@@ -132,8 +132,8 @@ $currentUser = new Particulier($_SESSION["USER_EMAIL"]);
           background-position:center;">
             <a href="./produit.php?id=<?php echo $product["productID"];?>">
               <div class="listEltInfo">
-                <h3><?php echo $product["productName"];?></h3>
-                <p><?php echo $product["productDesc"];?></p>
+                  <h3><?php echo $product["productName"];?></h3>
+                  <p><?php echo substr($product["productDesc"],0,17);?>...</p>
               </div>
             </a>
           </div>

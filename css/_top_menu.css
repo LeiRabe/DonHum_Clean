@@ -8,7 +8,7 @@
 
 #inputSearch {
 	width:85%;
-	
+
 	display: inline-block;
 }
 #btnSearch{
@@ -21,9 +21,17 @@
 }
 
 #imgMenuDonhum {
-	height: 2.5em;
-	width: 20%;
+	height: inherit;
+	width: 10em;
 	padding: 0;
+	margin:0;
+	display: inline-block;
+	position:relative;
+}
+
+.imgMenu {
+	height: inherit;
+	width: inherit;
 }
 
 .menu {
@@ -42,14 +50,14 @@
 .dropdown-item:hover{
 	background-color: #FF9B54;
 	border-color: #FF9B54;
-	color: #ffffff; 
+	color: #ffffff;
 	border-radius: 25px;
 }
 
 #dropdownMenuLink:focus{
 	background-color: #FF9B54;
 	border-color: #FF9B54;
-	color: #ffffff; 
+	color: #ffffff;
 	border-radius: 25px;
 }
 
@@ -58,15 +66,15 @@
 }
 
 .nav-link.active {
-  background-color: #FF9B54 !important;
-  color: #000000 !important;
-  border-radius: 25px;
+	background-color: #FF9B54 !important;
+	color: #000000 !important;
+	border-radius: 25px;
 }
 
 .nav-link:hover {
-  background-color: #FF9B54 !important;
-  color: #ffffff !important;
-  border-radius: 25px;
+	background-color: #FF9B54 !important;
+	color: #ffffff !important;
+	border-radius: 25px;
 }
 
 .form-control {
@@ -83,7 +91,7 @@
 .btn:hover {
 	background-color: #FF9B54;
 	border-color: #FF9B54;
-	color: #ffffff; 
+	color: #ffffff;
 }
 
 .btn {

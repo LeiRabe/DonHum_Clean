@@ -30,7 +30,7 @@ if ((isset($_FILES["productImage"]))
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/png" href="../img/logoDonhum.png" />
+    <link rel="icon" type="image/png" href="img/logoDonhum.png" />
     <link rel="stylesheet" href="css/produitParticulier.css" type="text/css" />
     <link rel="stylesheet" href="css/_top_menu.css" type="text/css" />
     <title>Produit</title>
@@ -106,7 +106,7 @@ if ((isset($_FILES["productImage"]))
           //s'il n'y a plus d'images on met l'image par défaut
           else{
             var img = document.createElement("img");
-            img.src="../img/aucuneImage.png";
+            img.src="img/aucuneImage.png";
             myFunction(img);
           }
           
@@ -195,7 +195,7 @@ if ((isset($_FILES["productImage"]))
         <h3> Ajouter une image </h3><br/><br/>
             <!-- agrandir l'image cliquée 
             <div class="grdImg">
-              <img id="expandedImg" src="../img/aucuneImage.png">
+              <img id="expandedImg" src="img/aucuneImage.png">
               <div id="imgtext"></div>
             </div>
 

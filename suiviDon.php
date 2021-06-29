@@ -15,7 +15,7 @@ if(!isset($_SESSION["USER_EMAIL"])){
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/png" href="../img/logoDonhum.png" />
+    <link rel="icon" type="image/png" href="img/logoDonhum.png" />
     <link rel="stylesheet" href="css/suiviDon.css" type="text/css" />
     <title>Suivi des dons</title>
 </head>
@@ -24,7 +24,7 @@ if(!isset($_SESSION["USER_EMAIL"])){
 <!-- Menu -->
 <nav class="navbar navbar-expand-md navbar-light menu">
 		  <a class="navbar-brand" href="./listeAssociation.php">
-			<img id="imgMenuDonhum" src="../img/menuDonhum.png" alt="Don'hum"/>
+			<img id="imgMenuDonhum" src="img/menuDonhum.png" alt="Don'hum"/>
 		  </a>
 		  <button id='btnMenuCollapse' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>

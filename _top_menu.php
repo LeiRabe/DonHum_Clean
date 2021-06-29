@@ -1,7 +1,7 @@
 
   <nav class="navbar navbar-expand-md navbar-light menu">
 		  <a class="navbar-brand" href="./listeAssociation.php" id="imgMenuDonhum">
-			<img src="../img/menuDonhum.png" alt=""/>
+			<img src="img/menuDonhum.png" alt="" class="imgMenu"/>
 		  </a>
 		  
           <div id="menuButtonCat">
